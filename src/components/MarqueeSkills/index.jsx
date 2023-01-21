@@ -114,6 +114,10 @@ const MarqueeSkills = () => {
                   ? 'Back-End Developer'
                   : item.title === 'mobile-developer'
                   ? 'Mobile Developer'
+                  : item.title === 'data-science'
+                  ? 'Data Science'
+                  : item.title === 'ui-ux-design'
+                  ? 'UI/UX Design'
                   : item.title}
               </h2>
             </div>
