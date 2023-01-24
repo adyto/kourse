@@ -6,6 +6,7 @@ import {
   MarqueeSkills,
   Testimony,
   ProductThumbnail,
+  Footer,
 } from '../../components';
 
 const HomePage = () => {
@@ -20,9 +21,7 @@ const HomePage = () => {
       <div className="container mx-auto">
         <ProductThumbnail />
         <Testimony />
-        <div className="w-full h-10  text-white text-center font-semibold text-2xl">
-          Footer
-        </div>
+        <Footer />
       </div>
     </div>
   );
